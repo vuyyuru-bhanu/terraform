@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "my_res_grp" {
 }
 
 resource "azurerm_storage_account" "my_store_acc" {
-    name                        = "mystorageacctfoct14"
+    name                        = "mystorageacc"
     resource_group_name         = "fromterraform"
     location                    = "eastus" 
     account_tier                = "Standard" 
