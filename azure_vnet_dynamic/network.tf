@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "my_res_grp" {
     name            = var.resource_group_name
     location        = var.target_region
     tags            =  {
-        project     = "qtlearning",
+        project     = "learning",
         env         = "dev"
     } 
 
